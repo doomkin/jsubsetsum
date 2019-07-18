@@ -2,10 +2,9 @@
  * Class TaskQueue implements a multi-threaded execution of the task queue.
  * 
  * @author Pavel Nikitin
- * License: GNU GPLv3
- * Modified: 2013/04/02
+ * License: MIT
  */
-package com.github.virusmxa.things.subsetsum;
+package com.github.doomkin.jsubsetsum;
 
 import java.util.ArrayList;
 import java.util.List;

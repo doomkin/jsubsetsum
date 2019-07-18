@@ -4,10 +4,9 @@
  * Dynamic Programming.
  * 
  * @author Pavel Nikitin
- * License: GNU GPLv3
- * Modified: 2013/04/02
+ * License: MIT
  */
-package com.github.virusmxa.things.subsetsum;
+package com.github.doomkin.jsubsetsum;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -125,7 +124,7 @@ public class SubsetSumSolver implements Callable<ArrayList<Integer>>
             subset.set(i, 0, false);
      
         // fill the subset table
-        for (int i = 1, step = sum / 10; i <= sum; i++)
+        for (int i = 1, step = Math.max(sum / 10, 1); i <= sum; i++)
         {
             if (_log != null && i % step == 0)
                 _log.print(".");

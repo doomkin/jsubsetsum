@@ -33,10 +33,9 @@
  * 15
  *
  * @author Pavel Nikitin
- * License: GNU GPLv3
- * Modified: 2013/04/02
+ * License: MIT
  */
-package com.github.virusmxa.things.subsetsum;
+package com.github.doomkin.jsubsetsum;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

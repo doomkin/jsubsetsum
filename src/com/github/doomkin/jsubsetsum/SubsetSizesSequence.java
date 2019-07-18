@@ -11,10 +11,9 @@
  * for averageSize = 5, setSize = 6 the sequence is {5, 4, 6, 3, 2, 1}
  * 
  * @author Pavel Nikitin
- * License: GNU GPLv3
- * Modified: 2013/04/02
+ * License: MIT
  */
-package com.github.virusmxa.things.subsetsum;
+package com.github.doomkin.jsubsetsum;
 
 import java.util.AbstractCollection;
 import java.util.Iterator;

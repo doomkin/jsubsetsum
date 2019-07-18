@@ -2,10 +2,9 @@
  * Class BitVector implements bit vector using BitSet.
  * 
  * @author Pavel Nikitin
- * License: GNU GPLv3
- * Modified: 2013/04/03
+ * License: MIT
  */
-package com.github.virusmxa.things.subsetsum;
+package com.github.doomkin.jsubsetsum;
 
 import java.util.BitSet;
 

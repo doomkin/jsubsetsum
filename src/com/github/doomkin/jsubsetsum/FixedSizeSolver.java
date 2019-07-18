@@ -4,10 +4,9 @@
  * a subsets with the most average items. Performed in the task queue.
  * 
  * @author Pavel Nikitin
- * License: GNU GPLv3
- * Modified: 2013/04/02
+ * License: MIT
  */
-package com.github.virusmxa.things.subsetsum;
+package com.github.doomkin.jsubsetsum;
 
 import java.io.PrintStream;
 import java.util.concurrent.Callable;
