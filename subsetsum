@@ -1,1 +1,0 @@
-java -jar subsetsum.jar input.txt output.txt
